@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="UwpSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpSample"
+    xmlns:vm="using:UwpSample.ViewModel">
+
+    <Application.Resources>
+        <DataTemplate  x:Key="TodoItemListCollectionViewModel" x:DataType="vm.TodoItemListCollectionViewModel">
+        </DataTemplate>
+    </Application.Resources>
+
+</Application>
